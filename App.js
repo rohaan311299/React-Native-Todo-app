@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, FlatList, Alert, TouchableWithoutFeedback, Keyb
 import Header from "./Components/Header";
 import TodoItem from "./Components/TodoItem";
 import AddTodo from "./Components/AddTodo";
+import { MaterialIcons } from '@expo/vector-icons';
 
 export default function App() {
 
@@ -67,9 +68,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   content:{
-    padding:40
+    flex:1,
+    padding:40,
   },
   list:{
-    marginTop:20
+    flex:1,
+    marginTop:20,
   }
 });
